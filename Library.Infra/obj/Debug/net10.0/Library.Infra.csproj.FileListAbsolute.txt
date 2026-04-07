@@ -1,0 +1,15 @@
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.csproj.AssemblyReference.cache
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.AssemblyInfoInputs.cache
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.AssemblyInfo.cs
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.csproj.CoreCompileInputs.cache
+C:\Users\akchugh\LibrarySystem\Library.Infra\bin\Debug\net10.0\Library.Infra.deps.json
+C:\Users\akchugh\LibrarySystem\Library.Infra\bin\Debug\net10.0\Library.Infra.dll
+C:\Users\akchugh\LibrarySystem\Library.Infra\bin\Debug\net10.0\Library.Infra.pdb
+C:\Users\akchugh\LibrarySystem\Library.Infra\bin\Debug\net10.0\Library.Core.dll
+C:\Users\akchugh\LibrarySystem\Library.Infra\bin\Debug\net10.0\Library.Core.pdb
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library..294F8AC0.Up2Date
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.dll
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\refint\Library.Infra.dll
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.pdb
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\ref\Library.Infra.dll
