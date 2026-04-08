@@ -28,9 +28,17 @@ namespace Library.Infra.Repositories
 
         public async Task UpdateAsync(Book book)
         {
-            _context.Books.Update(book);
-            await _context.SaveChangesAsync();
-        }
+            using var transaction = await _context.Database.BeginTransactionAsync();
+            try
+            {
+                _context.Books.Update(book);
+                await _context.SaveChangesAsync();
+                await transaction.CommitAsync();
+            } catch (Exception ex) {
+                await transaction.RollbackAsync();
+                throw ex;
+            }
+            }
 
         public async Task<bool> IsAvailableAsync(Guid bookId)
         {
