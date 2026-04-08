@@ -13,3 +13,4 @@ C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.dll
 C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\refint\Library.Infra.dll
 C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.pdb
 C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\ref\Library.Infra.dll
+C:\Users\akchugh\LibrarySystem\Library.Infra\obj\Debug\net10.0\Library.Infra.sourcelink.json

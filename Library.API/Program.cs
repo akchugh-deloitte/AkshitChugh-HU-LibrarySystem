@@ -44,8 +44,58 @@ using (var scope = app.Services.CreateScope())
     SeedData.Initialize(dbContext);
 }
 
+app.Use(async (context, next) =>
+{
+    var correlationId = Guid.NewGuid().ToString();
+    context.Response.Headers.Add("X-Correlation-ID", correlationId);
+    await next();
+});
+
 
 app.UseHttpsRedirection();
+
+//app.Use(async (context, next) =>
+//{
+//    if (!context.Request.Headers.ContainsKey("X-API-Key"))
+//    {
+//        context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+//        await context.Response.WriteAsync("API key is missing.");
+//        return;
+//    }
+
+//        if(context.Request.Headers["X-API-Key"] != "your-secure-api-key")
+//        {
+//            context.Response.StatusCode = StatusCodes.Status403Forbidden;
+//            await context.Response.WriteAsync("Invalid API key.");
+//            return;
+//        }
+//    await next();
+//}
+//);
+
+var requestCount = new Dictionary<string, List<DateTime>>();
+
+app.Use(async(context, next) =>
+{
+    var ip = context.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+    if(!requestCount.ContainsKey(ip))
+    {
+        requestCount[ip] = new List<DateTime>();
+    }
+    requestCount[ip].RemoveAll(timestamp => timestamp < DateTime.UtcNow.AddMinutes(1));
+    if (requestCount[ip].Count >= 100)
+    {
+        context.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+        await context.Response.WriteAsync("Too many requests. Please try again later.");
+        return;
+    }
+    requestCount[ip].Add(DateTime.UtcNow);
+    await next();
+}
+);
+
+
+
 app.MapControllers();
 app.UseAuthorization();
 app.UseSwagger();

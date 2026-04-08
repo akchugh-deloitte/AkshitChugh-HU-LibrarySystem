@@ -10,3 +10,4 @@ C:\Users\akchugh\LibrarySystem\Library.Core\obj\Debug\net10.0\Library.Core.dll
 C:\Users\akchugh\LibrarySystem\Library.Core\obj\Debug\net10.0\refint\Library.Core.dll
 C:\Users\akchugh\LibrarySystem\Library.Core\obj\Debug\net10.0\Library.Core.pdb
 C:\Users\akchugh\LibrarySystem\Library.Core\obj\Debug\net10.0\ref\Library.Core.dll
+C:\Users\akchugh\LibrarySystem\Library.Core\obj\Debug\net10.0\Library.Core.sourcelink.json

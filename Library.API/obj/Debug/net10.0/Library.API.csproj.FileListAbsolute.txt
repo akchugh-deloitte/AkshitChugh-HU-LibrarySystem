@@ -71,3 +71,5 @@ C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\refint\Library.API.
 C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\Library.API.pdb
 C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\Library.API.genruntimeconfig.cache
 C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\ref\Library.API.dll
+C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\Library.API.sourcelink.json
+C:\Users\akchugh\LibrarySystem\Library.API\obj\Debug\net10.0\Library.API.MvcApplicationPartsAssemblyInfo.cs
