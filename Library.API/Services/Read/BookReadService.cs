@@ -21,7 +21,7 @@ namespace Library.API.Services.Read
 
             if (!string.IsNullOrEmpty(filter.Search))
             {
-                conditions.Add("(TITLE LIKE @Search OR Author LIKE @Search)");
+                conditions.Add("(Title LIKE @Search OR Author LIKE @Search)");
                 parameters.Add("@Search", $"%{filter.Search}%");
             }
 
