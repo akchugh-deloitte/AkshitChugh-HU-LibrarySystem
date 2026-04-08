@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Library.API\\Services\\Read\\BookReadService.cs",
               "ToolTip": "C:\\Users\\akchugh\\LibrarySystem\\Library.API\\Services\\Read\\BookReadService.cs",
               "RelativeToolTip": "Library.API\\Services\\Read\\BookReadService.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEUAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T03:38:51.352Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Library.API\\Controllers\\BookController.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T03:38:36.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T03:38:36.693Z"
             }
           ]
         }
